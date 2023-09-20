@@ -1,6 +1,7 @@
 package renascer;
 
 import java.util.Scanner;
+
 public class verificadorVotacao {
 
 	
@@ -16,7 +17,8 @@ public class verificadorVotacao {
 	        } else {
 	            System.out.println("Você ainda não pode votar nas eleições.");
 	        }
-	    
-	    }
-
+		    scanner.close();
+	   }  
 }
+
+
